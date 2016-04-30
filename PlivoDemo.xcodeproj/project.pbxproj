@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		381BE6121C97E0AE00DF7578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381BE6111C97E0AE00DF7578 /* AppDelegate.swift */; };
+		381BE6141C97E0AE00DF7578 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381BE6131C97E0AE00DF7578 /* ViewController.swift */; };
+		381BE6171C97E0AE00DF7578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381BE6151C97E0AE00DF7578 /* Main.storyboard */; };
+		381BE61A1C97E0AE00DF7578 /* PlivoDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 381BE6181C97E0AE00DF7578 /* PlivoDemo.xcdatamodeld */; };
+		381BE61C1C97E0AE00DF7578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381BE61B1C97E0AE00DF7578 /* Assets.xcassets */; };
+		381BE61F1C97E0AE00DF7578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381BE61D1C97E0AE00DF7578 /* LaunchScreen.storyboard */; };
+		381BE6351C97E76900DF7578 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381BE6341C97E76900DF7578 /* Security.framework */; };
+		381BE6371C97E77300DF7578 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381BE6361C97E77300DF7578 /* OpenGLES.framework */; };
+		381BE6391C97E77C00DF7578 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381BE6381C97E77C00DF7578 /* QuartzCore.framework */; };
+		381BE63B1C97E78B00DF7578 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381BE63A1C97E78B00DF7578 /* SystemConfiguration.framework */; };
+		381BE63D1C97E79600DF7578 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381BE63C1C97E79600DF7578 /* CoreMedia.framework */; };
+		381BE63F1C97E7A000DF7578 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381BE63E1C97E7A000DF7578 /* AVFoundation.framework */; };
+		381BE6411C97E7A900DF7578 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381BE6401C97E7A900DF7578 /* CFNetwork.framework */; };
+		381BE6431C97E7B300DF7578 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381BE6421C97E7B300DF7578 /* AudioToolbox.framework */; };
+		381BE6451C97E7BE00DF7578 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381BE6441C97E7BE00DF7578 /* CoreAudio.framework */; };
+		381BE6471C97E82600DF7578 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381BE6461C97E82600DF7578 /* UIKit.framework */; };
+		381BE6491C97E82F00DF7578 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381BE6481C97E82F00DF7578 /* Foundation.framework */; };
+		381BE64B1C97E83A00DF7578 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381BE64A1C97E83900DF7578 /* CoreGraphics.framework */; };
+		381BE64D1C97E91100DF7578 /* libPlivoEndpoint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 381BE64C1C97E91100DF7578 /* libPlivoEndpoint.a */; settings = {ASSET_TAGS = (); }; };
+		381BE6511C97E91F00DF7578 /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 381BE6501C97E91F00DF7578 /* Phone.m */; settings = {ASSET_TAGS = (); }; };
+		381BE65C1C98062A00DF7578 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 381BE65B1C98062A00DF7578 /* logo.png */; settings = {ASSET_TAGS = (); }; };
+		385EAFDC1C9A09E000973AFA /* CMVolumeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 385EAFDB1C9A09E000973AFA /* CMVolumeSlider.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		381BE60E1C97E0AE00DF7578 /* PlivoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlivoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		381BE6111C97E0AE00DF7578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		381BE6131C97E0AE00DF7578 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		381BE6161C97E0AE00DF7578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		381BE6191C97E0AE00DF7578 /* PlivoDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlivoDemo.xcdatamodel; sourceTree = "<group>"; };
+		381BE61B1C97E0AE00DF7578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		381BE61E1C97E0AE00DF7578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		381BE6201C97E0AE00DF7578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381BE6341C97E76900DF7578 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		381BE6361C97E77300DF7578 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		381BE6381C97E77C00DF7578 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		381BE63A1C97E78B00DF7578 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		381BE63C1C97E79600DF7578 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		381BE63E1C97E7A000DF7578 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		381BE6401C97E7A900DF7578 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		381BE6421C97E7B300DF7578 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		381BE6441C97E7BE00DF7578 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		381BE6461C97E82600DF7578 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		381BE6481C97E82F00DF7578 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		381BE64A1C97E83900DF7578 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		381BE64C1C97E91100DF7578 /* libPlivoEndpoint.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPlivoEndpoint.a; path = "plivo-ios-package-0.5/Libraries/libPlivoEndpoint.a"; sourceTree = "<group>"; };
+		381BE64E1C97E91E00DF7578 /* PlivoDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlivoDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		381BE64F1C97E91F00DF7578 /* Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Phone.h; path = PlivoClient/Phone.h; sourceTree = "<group>"; };
+		381BE6501C97E91F00DF7578 /* Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Phone.m; path = PlivoClient/Phone.m; sourceTree = "<group>"; };
+		381BE6531C97E9A800DF7578 /* PlivoCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlivoCall.h; path = "plivo-ios-package-0.5/Headers/PlivoCall.h"; sourceTree = "<group>"; };
+		381BE6541C97E9A800DF7578 /* PlivoEndpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlivoEndpoint.h; path = "plivo-ios-package-0.5/Headers/PlivoEndpoint.h"; sourceTree = "<group>"; };
+		381BE6551C97E9A800DF7578 /* PlivoIncoming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlivoIncoming.h; path = "plivo-ios-package-0.5/Headers/PlivoIncoming.h"; sourceTree = "<group>"; };
+		381BE6561C97E9A800DF7578 /* PlivoOutgoing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlivoOutgoing.h; path = "plivo-ios-package-0.5/Headers/PlivoOutgoing.h"; sourceTree = "<group>"; };
+		381BE6571C97E9A800DF7578 /* PlivoRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlivoRest.h; path = "plivo-ios-package-0.5/Headers/PlivoRest.h"; sourceTree = "<group>"; };
+		381BE65B1C98062A00DF7578 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		385EAFDA1C9A09E000973AFA /* CMVolumeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMVolumeSlider.h; path = CMVolumeSlider/CMVolumeSlider.h; sourceTree = "<group>"; };
+		385EAFDB1C9A09E000973AFA /* CMVolumeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMVolumeSlider.m; path = CMVolumeSlider/CMVolumeSlider.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		381BE60B1C97E0AE00DF7578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381BE64B1C97E83A00DF7578 /* CoreGraphics.framework in Frameworks */,
+				381BE6491C97E82F00DF7578 /* Foundation.framework in Frameworks */,
+				381BE6471C97E82600DF7578 /* UIKit.framework in Frameworks */,
+				381BE6451C97E7BE00DF7578 /* CoreAudio.framework in Frameworks */,
+				381BE6431C97E7B300DF7578 /* AudioToolbox.framework in Frameworks */,
+				381BE6411C97E7A900DF7578 /* CFNetwork.framework in Frameworks */,
+				381BE63F1C97E7A000DF7578 /* AVFoundation.framework in Frameworks */,
+				381BE63D1C97E79600DF7578 /* CoreMedia.framework in Frameworks */,
+				381BE63B1C97E78B00DF7578 /* SystemConfiguration.framework in Frameworks */,
+				381BE64D1C97E91100DF7578 /* libPlivoEndpoint.a in Frameworks */,
+				381BE6391C97E77C00DF7578 /* QuartzCore.framework in Frameworks */,
+				381BE6371C97E77300DF7578 /* OpenGLES.framework in Frameworks */,
+				381BE6351C97E76900DF7578 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		381BE6051C97E0AE00DF7578 = {
+			isa = PBXGroup;
+			children = (
+				381BE64A1C97E83900DF7578 /* CoreGraphics.framework */,
+				381BE6481C97E82F00DF7578 /* Foundation.framework */,
+				381BE6461C97E82600DF7578 /* UIKit.framework */,
+				381BE6441C97E7BE00DF7578 /* CoreAudio.framework */,
+				381BE6421C97E7B300DF7578 /* AudioToolbox.framework */,
+				381BE6401C97E7A900DF7578 /* CFNetwork.framework */,
+				381BE63E1C97E7A000DF7578 /* AVFoundation.framework */,
+				381BE63C1C97E79600DF7578 /* CoreMedia.framework */,
+				381BE63A1C97E78B00DF7578 /* SystemConfiguration.framework */,
+				381BE6381C97E77C00DF7578 /* QuartzCore.framework */,
+				381BE6361C97E77300DF7578 /* OpenGLES.framework */,
+				381BE6341C97E76900DF7578 /* Security.framework */,
+				381BE6101C97E0AE00DF7578 /* PlivoDemo */,
+				381BE60F1C97E0AE00DF7578 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		381BE60F1C97E0AE00DF7578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				381BE60E1C97E0AE00DF7578 /* PlivoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		381BE6101C97E0AE00DF7578 /* PlivoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				385EAFD91C9A09CD00973AFA /* CMVolumeSlider */,
+				381BE65B1C98062A00DF7578 /* logo.png */,
+				381BE6521C97E99900DF7578 /* Headers */,
+				381BE64C1C97E91100DF7578 /* libPlivoEndpoint.a */,
+				381BE6311C97E69D00DF7578 /* PlivoClient */,
+				381BE6111C97E0AE00DF7578 /* AppDelegate.swift */,
+				381BE6131C97E0AE00DF7578 /* ViewController.swift */,
+				381BE6151C97E0AE00DF7578 /* Main.storyboard */,
+				381BE61B1C97E0AE00DF7578 /* Assets.xcassets */,
+				381BE61D1C97E0AE00DF7578 /* LaunchScreen.storyboard */,
+				381BE6201C97E0AE00DF7578 /* Info.plist */,
+				381BE6181C97E0AE00DF7578 /* PlivoDemo.xcdatamodeld */,
+			);
+			path = PlivoDemo;
+			sourceTree = "<group>";
+		};
+		381BE6311C97E69D00DF7578 /* PlivoClient */ = {
+			isa = PBXGroup;
+			children = (
+				381BE64F1C97E91F00DF7578 /* Phone.h */,
+				381BE6501C97E91F00DF7578 /* Phone.m */,
+				381BE64E1C97E91E00DF7578 /* PlivoDemo-Bridging-Header.h */,
+			);
+			name = PlivoClient;
+			sourceTree = "<group>";
+		};
+		381BE6521C97E99900DF7578 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				381BE6531C97E9A800DF7578 /* PlivoCall.h */,
+				381BE6541C97E9A800DF7578 /* PlivoEndpoint.h */,
+				381BE6551C97E9A800DF7578 /* PlivoIncoming.h */,
+				381BE6561C97E9A800DF7578 /* PlivoOutgoing.h */,
+				381BE6571C97E9A800DF7578 /* PlivoRest.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		385EAFD91C9A09CD00973AFA /* CMVolumeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				385EAFDA1C9A09E000973AFA /* CMVolumeSlider.h */,
+				385EAFDB1C9A09E000973AFA /* CMVolumeSlider.m */,
+			);
+			name = CMVolumeSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		381BE60D1C97E0AE00DF7578 /* PlivoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381BE6231C97E0AE00DF7578 /* Build configuration list for PBXNativeTarget "PlivoDemo" */;
+			buildPhases = (
+				381BE60A1C97E0AE00DF7578 /* Sources */,
+				381BE60B1C97E0AE00DF7578 /* Frameworks */,
+				381BE60C1C97E0AE00DF7578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlivoDemo;
+			productName = PlivoDemo;
+			productReference = 381BE60E1C97E0AE00DF7578 /* PlivoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		381BE6061C97E0AE00DF7578 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Alexey K";
+				TargetAttributes = {
+					381BE60D1C97E0AE00DF7578 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 381BE6091C97E0AE00DF7578 /* Build configuration list for PBXProject "PlivoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 381BE6051C97E0AE00DF7578;
+			productRefGroup = 381BE60F1C97E0AE00DF7578 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				381BE60D1C97E0AE00DF7578 /* PlivoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		381BE60C1C97E0AE00DF7578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381BE65C1C98062A00DF7578 /* logo.png in Resources */,
+				381BE61F1C97E0AE00DF7578 /* LaunchScreen.storyboard in Resources */,
+				381BE61C1C97E0AE00DF7578 /* Assets.xcassets in Resources */,
+				381BE6171C97E0AE00DF7578 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		381BE60A1C97E0AE00DF7578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381BE6511C97E91F00DF7578 /* Phone.m in Sources */,
+				385EAFDC1C9A09E000973AFA /* CMVolumeSlider.m in Sources */,
+				381BE6141C97E0AE00DF7578 /* ViewController.swift in Sources */,
+				381BE6121C97E0AE00DF7578 /* AppDelegate.swift in Sources */,
+				381BE61A1C97E0AE00DF7578 /* PlivoDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		381BE6151C97E0AE00DF7578 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				381BE6161C97E0AE00DF7578 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		381BE61D1C97E0AE00DF7578 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				381BE61E1C97E0AE00DF7578 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		381BE6211C97E0AE00DF7578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		381BE6221C97E0AE00DF7578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		381BE6241C97E0AE00DF7578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PlivoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PlivoDemo/plivo-ios-package-0.5/Libraries",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PlivoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlivoDemo/PlivoDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		381BE6251C97E0AE00DF7578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PlivoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PlivoDemo/plivo-ios-package-0.5/Libraries",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PlivoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlivoDemo/PlivoDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		381BE6091C97E0AE00DF7578 /* Build configuration list for PBXProject "PlivoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381BE6211C97E0AE00DF7578 /* Debug */,
+				381BE6221C97E0AE00DF7578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		381BE6231C97E0AE00DF7578 /* Build configuration list for PBXNativeTarget "PlivoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381BE6241C97E0AE00DF7578 /* Debug */,
+				381BE6251C97E0AE00DF7578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		381BE6181C97E0AE00DF7578 /* PlivoDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				381BE6191C97E0AE00DF7578 /* PlivoDemo.xcdatamodel */,
+			);
+			currentVersion = 381BE6191C97E0AE00DF7578 /* PlivoDemo.xcdatamodel */;
+			path = PlivoDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 381BE6061C97E0AE00DF7578 /* Project object */;
+}
